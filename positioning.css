@@ -1,0 +1,49 @@
+* {box-sizing: border-box;}
+
+#fixed {
+    width: 200px;
+    height: 100px;
+    position: fixed;
+    padding: 40px;
+    background-color: grey;
+    top: 0%;
+    left: 0%;
+    text-align: center;
+}
+
+h1 {
+    font-size: 85px;
+    width: 700px;
+    margin: 0 auto;
+    margin-bottom: 80px;
+}
+
+p {
+line-height: 200%;
+margin-bottom: 40px;
+}
+
+.Relative {
+    position: relative;
+    height: 200px;
+    padding: 40px;
+    background: gray;
+    text-align: center;
+}
+
+#Absolute {
+    position: absolute;
+    height: 100px;
+    width: 150px;
+    background: pink;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    padding: 40px;
+}
+
+.Content {
+    width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+}
